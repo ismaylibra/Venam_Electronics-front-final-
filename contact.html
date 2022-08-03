@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="assets/photos/venam-tab-icon.png">
+    <link rel="stylesheet" href="assets/css/style.scss">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/_responsive.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact - Venam</title>
+</head>
+
+<body>
+    <header id="desktop">
+        <div class="header-top">
+            <div class="container  ">
+                <div class="d-flex justify-content-between flex-wrap align-items-center ">
+                    <div class="all-top-btns ">
+                        <div class="dropdown">
+                            <a class="btn btn-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>US/USD</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">AUS/USD</a></li>
+                                <li><a class="dropdown-item" href="#">BNG/TK</a></li>
+                                <li><a class="dropdown-item" href="#">IN/RP</a></li>
+                            </ul>
+                        </div> <span style="color: #c1c1c1;">|</span>
+                        <div class="dropdown">
+                            <a class="btn btn-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Sell With Us</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Returns</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy</a></li>
+                                <li><a class="dropdown-item" href="#">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-social">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.viber.com/en/" target="_blank">
+                            <i class="fa-brands fa-viber"></i>
+                        </a>
+                        <a href="https://www.whatsapp.com/" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="header-middle mt-4">
+            <div class="container">
+                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                    <div class="hd-middle-left">
+                        <a href="index.html">
+                            <img src="assets/photos/venam-nav-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="hd-middle-center">
+                        <div class="md-center-all d-inline-block">
+                            <input type="text" placeholder="Search for your item's type...">
+                            <span style="color: #c1c1c1;">|</span>
+                            <span class="all-category">All Category </span>
+                            <span class="category-arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="hd-middle-right">
+                        <a href="account.html" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <a href="" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-arrows-rotate"></i><span>0</span>
+                        </a>
+                        <a href="" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-heart"></i><span>0</span>
+                        </a>
+                        <a href="basket.html" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-basket-shopping"></i><span id="basketCount">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="menu-nav">
+                    <div class="buttom-dropdown position-relative">
+                        <button id="all-category" class="drpdwn-category">
+                            <i class="fa-solid fa-bars"></i>
+                            <span>All Categories</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+
+                        <ul class="category-menu" style="display: none;">
+                            <li class="has-dropdown">
+                                <a href="#">Accessories & Parts</a>
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Cables & Adapters</a>
+
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Batteries</a>
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Bags & Cases</a>
+                            </li>
+                            <li>
+                                <a href="#">Electronic Cigarettes</a>
+                            </li>
+                            <li>
+                                <a href="#">Audio & Video</a>
+                            </li>
+                            <li>
+                                <a href="#">Televisons</a>
+                            </li>
+                            <li>
+                                <a href="#">TV Receivers</a>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Projectors</a>
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Audio Amplifier Boards</a>
+                            </li>
+                            <li>
+                                <a href="#">TV Sticks</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="nav-links">
+                        <li class="menu-item position-relative">
+                            <a href="#">
+                                Home
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Home 1 </a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                Categories
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <div class="mega-menu">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="menu-banner" style="
+                                    background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/banner-30.jpg);
+                                "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="shop.html">
+                                Shop
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <div class="mega-menu">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">
+                                Pages
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">
+                                Special
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">
+                                Store list
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <header id="phone">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap align-items-center">
+                <div class="phone-hd-left">
+                    <a href="">
+                        <img src="assets/photos/white_logo-for-phone.png" alt="">
+                    </a>
+                </div>
+                <div class="phone-hd-right">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header-main-phone d-none d-lg-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="assets/photos/white_logo-for-phone.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 text-end">
+                    <i id="MenuIcon" class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section id="SidebarMobile">
+        <div class="container">
+         <div class="top d-flex justify-content-between align-items-center">
+             <img src="assets/photos/venam-nav-logo.png" alt="">
+             <i id="closeIcon" class="fa-solid fa-xmark close-icon"></i>
+         </div>
+         <div class="bottom d-flex" >
+             <div class="menu tab">MENU</div>
+             <div class="categoires tab">Categories</div>
+             <div class="user tab"><i class="fa-solid fa-user"></i></div>
+         </div>
+         <div class="content mt-4">
+             <div class="home d-flex justify-content-between
+align-items-center">
+                 <h6>Home</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>Category</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>Shop</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>Pages</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>SPECIAL</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>STORE LIST</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>CONTACT</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+
+
+         </div>
+        </div>
+     </section>
+    <section id="Contact-hdr">
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <div class="detail-path">
+                <ul class="d-flex justify-content-evenly align-items-center flex-wrap">
+                    <li><a href="">Home</a></li>
+                    <li class="mx-4"><a href="">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section id="Contact-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="content-all text-center">
+                        <div class="content-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="content-text">
+                            <h5>Our Location</h5>
+                            <p>W898 RTower Stat, Suite 56 Brockland,CA 9622 United States</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-all text-center">
+                        <div class="content-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="content-text">
+                            <h5>Our Email</h5>
+                            <p>Email Us: Support@info.Com Vanamsupport.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content-all text-center">
+                        <div class="content-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="content-text">
+                            <h5>Phone Number</h5>
+                            <p>Contact Numbers: 458-965-3224
+                                458-965-3224
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Lets-talk">
+        <div class="container">
+            <div class="lets-talk-header">
+                <div class="lets-talk-hdr-top text-center">
+                    <span class="collection">LET'S TALK</span>
+                    <h2 class="lts-tlk">SEND US A MESSAGE</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-6 g-4">
+                            <div class="first-name d-flex justify-content-between align-items-center">
+                                <input type="text" placeholder="First Name*"> <i class="fa-solid fa-user"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 g-4">
+                            <div class="first-name d-flex justify-content-between align-items-center">
+                                <input type="text" placeholder="Last Name*"> <i class="fa-solid fa-user"></i>
+                            </div>
+                        </div> <div class="col-lg-6 g-4">
+                            <div class="first-name d-flex justify-content-between align-items-center">
+                                <input type="text" placeholder="Your Email*"> <i class="fa-solid fa-envelope"></i>
+                            </div>
+                        </div> <div class="col-lg-6 g-4">
+                            <div class="first-name d-flex justify-content-between align-items-center">
+                                <input type="text" placeholder="Phone*"> <i class="fa-solid fa-phone"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 mt-5">
+                            <textarea name="" id="" cols="80" rows="7" placeholder="Enter Your Message*"></textarea>
+                        </div>
+                        <div class="col-lg-12">
+                            <input class="submit" type="submit">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="comp-location">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.42999466046!2d49.71487539548643!3d40.39450797992698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku%2C%20Azerbaijan!5e0!3m2!1sen!2s!4v1659545871090!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+`       </div>
+    </section>
+
+
+    <footer>
+        <div class="exclusive-offer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="d-flex justify-content-evenly align-items-center">
+                            <div class="offer-text-left text-white">
+                                <div class="container">
+                                    <span>Exclusive Offer</span>
+                                    <h2>Smart Watch </h2>
+                                    <h2 class="bracelet">Bracelet</h2>
+                                </div>
+                            </div>
+                            <div class="offer-text-right">
+                                <img src="assets/photos/limited_offer_discount.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="offer-btns">
+                            <div class="container">
+                                <div class="offer-btn mb-3 ">
+                                    <a>LIMITED TIME OFFER</a>
+                                </div>
+                                <div class="offer-info text-white">
+                                    <div class="d-flex align-items-center">
+                                        <span class="upto">UPTO</span>
+                                        <span class="dollarPrice">$50.00</span>
+                                        <span class="off ">OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-subscribe">
+                <div class="container">
+                    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center ">
+                        <div class="subscribe-left">
+                            <h4>Subscribe Now !</h4>
+                            <span>Venam By Signing Up To Our Newsletter.</span>
+                        </div>
+                        <div class="subscribe-right">
+                            <input type="email" placeholder="Enter Your Email...">
+                            <button>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-find">
+                <div class="container">
+                    <div class="find-top">
+                        <div class="container">
+                            <h4>Find Out More</h4>
+                        </div>
+                    </div>
+                    <div class="find-bottom">
+                        <div class="container">
+                            <span>Main Categories : </span><span class="categoryLinks"> <a href="">Accessories</a> <a
+                                    href="">Adapters</a> <a href="">Batteries</a> <a href="">Webcams</a><a
+                                    href="">Televisions</a><a href="">Projectors</a> <a href="">Bags & Cases</a><a
+                                    href="">Receivers</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu">
+
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="menu-description mt-4">
+                            <div class="container">
+                                <div class="menu-description-image">
+                                    <div class="container">
+                                        <img src="assets/photos/menu-description-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="menu-description-content mt-4">
+                                    <div class="container">
+                                        <p>Namkand sodales vel online best prices Amazon <br> Check out ethnic wear,
+                                            formal wear western wear <br> Blood Pressure Rate Monito lorem ipsum dolor
+                                            sit <br> amet lorem ipsum sonda mony daml...</p>
+                                    </div>
+                                </div>
+                                <div class="menu-description-social">
+                                    <div class="container">
+                                        <a href="">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-pinterest"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="customer-service">
+                            <div class="customer-service-top">
+                                <h5>Customer Service</h5>
+                            </div>
+                            <div class="customer-service-links">
+                                <ul>
+                                    <li><a href="">Help Center</a></li>
+                                    <li><a href="">Returns</a></li>
+                                    <li><a href="">Product Recalls</a></li>
+                                    <li><a href="">Accessiblity</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="quick-links">
+                            <div class="quick-links-top">
+                                <h5>Quick Links</h5>
+                            </div>
+                            <div class="quick-links-link">
+                                <ul>
+                                    <li><a href="">Return Policy</a></li>
+                                    <li><a href="">Term Of Use</a></li>
+                                    <li><a href="">Security</a></li>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Store Pickup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact-us">
+                            <div class="contact-us-top">
+                                <h5>Contact Us</h5>
+                            </div>
+                            <div class="contact-us-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-location-dot"></i> W898 RTower Stat, Suite 56</li>
+                                    <li><i class="fa-solid fa-headphones-simple"></i> 458-965-3224</li>
+                                    <li><i class="fa-solid fa-envelope-open"></i> Support@info.Com</li>
+                                    <li><i class="fa-solid fa-blender-phone"></i> 458-965-3224</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="footer-bottom-left">
+                        <div class="container">
+                            <p>Copyright © 2022 - Ismayil Ibra.</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom-right">
+                        <div class="container">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="assets/photos/card-logos.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="scroll-top">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

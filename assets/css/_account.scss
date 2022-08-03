@@ -1,0 +1,91 @@
+#Account-hdr {
+    padding: 4rem 0;
+    background-color: #F2F2F2;
+
+    h2 {
+        font-size: 45px;
+        color: #252525;
+        font-weight: bolder;
+        margin-bottom: 15px;
+
+    }
+
+    .account-path {
+        width: 30%;
+        margin: 0 auto;
+
+        ul {
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 10px 40px;
+            color: #ff6000;
+
+            li {
+
+
+                color: #6d6c6c;
+
+                &:hover a {
+                    color: #ff6000;
+
+                }
+
+                a {
+                    font-size: 15px;
+                    color: #6d6c6c;
+
+                }
+            }
+        }
+    }
+}
+#Login-register{
+    padding: 8rem;
+    h2{
+        font-weight: bolder;
+    }
+    form{
+        box-shadow: 0px 5px 9.3px 0.7px rgb(183 177 199 / 10%);
+        background-color: #fff;
+        color: #7d7d7d;
+        padding: 20px;
+        margin-bottom: 75px;
+        font-size: 15px;
+        width: 447.6px;
+        height: 380px;
+        border: 1px solid #7d7d7d;
+        input{
+            padding: 16px 20px 17px;
+            width: 100%;
+            border-radius: 4px;
+            border-color: #8c8c8c46;
+            outline: none;
+        }
+        .pw{
+            position: relative;
+        }
+        .eye{
+            position: absolute;
+            top: 0.7rem;
+            left: 0.7rem;
+        }
+        button{
+            background-color: #ff6000;
+            color: #fff;
+            padding: 17px 25px;
+            margin-right: 15px;
+            font-size: 15px;
+            border: none;
+            outline: none;
+            border-radius: 4px;
+        }
+        .regist, .regist1{
+            font-size: 15px;
+            
+        }
+        .regist{
+            margin-bottom: 15px;
+        }
+    }
+
+}

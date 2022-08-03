@@ -1,0 +1,136 @@
+#Contact-hdr {
+    padding: 4rem 0;
+    background-color: #F2F2F2;
+
+    h2 {
+        font-size: 45px;
+        color: #303030;
+        font-weight: bolder;
+        margin-bottom: 15px;
+    }
+
+    .detail-path {
+        width: 30%;
+        margin: 0 auto;
+
+        ul {
+            background-color: #fff;
+            border-radius: 30px;
+            padding: 10px 40px;
+
+            li {
+
+
+                color: #6d6c6c;
+
+                &:hover a {
+                    color: #ff6000;
+
+                }
+
+                a {
+                    font-size: 15px;
+                    color: #6d6c6c;
+
+                }
+            }
+        }
+    }
+}
+#Contact-content{
+    padding: 4rem 0;
+    .content-all{
+        padding: 2rem 0;
+        border: 1px solid #eee;
+        .content-icon{
+            background-color: #ff6000;
+            border: 1px solid #eee;
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            border-radius: 100%;
+            line-height: 72px;
+            font-size: 34px;
+            margin: 0 20px;
+            i{
+                color: #fff;
+                width: 72px;
+                height: 72px;
+                text-align: center;
+                
+                
+            }
+        }
+        .content-text{
+            h5{
+                color: #252525;
+                font-size: 20px;
+                margin-bottom: 10px;
+                line-height: 1.75;
+                font-weight: bolder;
+            }
+            p{
+                color: #7d7d7d;
+                font-size: 15px;
+                line-height: 26px;
+                padding: 0 65px;
+            }
+        }
+    }
+}
+#Lets-talk{
+    .lets-talk-header {
+        margin-bottom: 30px;
+        .collection {
+            color: #ff6000;
+            color: 12px;
+            margin-bottom: 15px;
+        }
+
+        .lts-tlk {
+            color: #252525;
+            font-size: 35px;
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+
+
+      
+
+       
+
+
+    }
+    .first-name{
+        border: 1px solid #8c8c8c46;
+        padding: 17px 40px 17px 18px;
+        border-radius: 5px;
+        i{
+            color: #7d7d7d;
+        }
+        input{
+            border: none;
+            outline: none;
+           
+
+        }
+    }
+    textarea{   
+        border-color: #7d7d7d;
+        border-radius: 5px;
+        padding: 17px 40px ;
+    }
+    .submit{
+        background-color: #ff6000;
+        color: #fff;
+        padding: 12px 40px;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        transition: .5s;
+        &:hover{
+            background-color: #252525;
+            color: #FFF;
+        }
+    }
+}

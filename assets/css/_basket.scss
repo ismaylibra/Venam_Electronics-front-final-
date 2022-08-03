@@ -1,0 +1,212 @@
+#Top-Pics{
+    .modern-technology, .modern-technology-bottom {
+        background-image: url('/assets/photos/banner-1.jpg');
+        background-position: center;
+        background-size: cover;
+        padding: 2rem;
+
+        .modern-top {
+            font-size: 15px;
+
+            span {
+                color: #7d7d7d;
+                font-size: 12px;
+                font-weight: bolder;
+                letter-spacing: 1px;
+
+            }
+        }
+
+        .modern-header {
+            margin-top: 10px;
+
+            h3 {
+                font-size: 35px;
+                color: #252525;
+                font-weight: bolder;
+                line-height: 1.6;
+            }
+        }
+
+        .modern-description {
+            p {
+                font-size: 15px;
+                color: #7d7d7d;
+                line-height: 1.8;
+                padding-right: 25.25rem;
+            }
+        }
+
+        .modern-button {
+            margin-top: 40px;
+
+            a {
+                padding: 17px 35px;
+                color: #fff;
+                background-color: #0465d2;
+                font-size: 14px;
+                border-radius: 4px;
+                font-weight: bold;
+                text-align: center;
+                transition: .4s;
+
+                &:hover {
+                    background-color: #252525;
+                }
+            }
+        }
+    }
+}
+.returnShop{
+    margin: 40px 0;
+   a{
+    font-size: 14px;
+    background-color: #ff6000;
+    padding: 17px 25px;
+    color: #fff;
+    border-radius: 5px;
+    transition: .5s;
+    &:hover{
+        background-color: #252525;
+        color: #fff;
+    }
+   
+   }
+}
+#Purchase{
+ h3{
+    color: #252525;
+    font-size: 28px;
+    font-weight: bolder;
+
+ }
+ .tabTags{
+    a{
+        color: #7d7d7d;
+        transition: .3s;
+        &:hover{
+            color: #ff6000;
+        }
+    }
+ }
+ .slick-arrow{
+   border: 1px solid #000;
+    border-radius: 100%; 
+    
+
+    &:hover {
+        background-color: #7d7d7d;
+    }
+   
+
+}
+
+
+ .also-prod-all {
+ 
+   
+    width: 70%;
+    &:hover .bottom-cart {
+        opacity: 1;
+        bottom: 15px;
+    }
+
+    .also-prod-img {
+        position: relative;
+
+        .sale1 {
+            position: absolute;
+            top: 7px;
+            left: 7px;
+            width: 42px;
+            height: 21px;
+            font-size: 12px;
+            background-color: #ff6000;
+            padding: 0 8px;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .sale2 {
+            position: absolute;
+            top: 30px;
+            left: 7px;
+            width: 42px;
+            height: 21px;
+            font-size: 12px;
+            background-color: #f7ba01;
+            padding: 0 8px;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .sale3 {
+            position: absolute;
+            top: 54px;
+            text-align: center;
+            left: 7px;
+            width: 42px;
+            height: 21px;
+            font-size: 12px;
+            background-color: #ff6000;
+            padding: 0 8px;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+    .bottom-cart {
+
+        opacity: 0;
+        position: absolute;
+        bottom: 0px;
+        left: 4px;
+        width: 80%;
+        transition: .5s;
+        margin-left: 12px;
+
+        .cart-top-part {
+            background-color: #fff;
+            border-bottom: 1px solid black;
+
+            a {
+                color: #000;
+            }
+        }
+
+        .cart-bottom-part {
+            background-color: #303030;
+
+            a {
+                color: #fff;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .content-price {
+        p {
+            color: #ff6000;
+            font-size: 16px;
+            font-weight: bolder;
+            letter-spacing: .5px;
+
+            del {
+                color: #b2b2b2;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .also-prod-name {
+        a {
+            color: #252525;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+    }
+
+}
+}

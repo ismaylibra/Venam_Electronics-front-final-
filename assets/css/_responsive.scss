@@ -1,0 +1,169 @@
+@media (max-width:576px){
+    .comp-location{
+        width: 50%;
+        display: block !important;
+    }
+    // body{
+    //     overflow-x: hidden !important;
+    // }
+   #desktop{
+    .header-middle{
+        display: none;
+    }
+    .header-bottom{
+        display: none;
+    }
+   }
+   #phone{
+    display: block;
+    background-color: #0465D2;
+    padding: 25px 0;
+    .phone-hd-left{
+        margin-left: 20px;
+        img{
+            width: 100%;
+        }
+    }
+    .phone-hd-right{
+        button{
+            background-color: transparent;
+            border: none;
+            outline: none;
+            i{
+                color: #fff;
+                font-size: 30px;
+                margin-right: 35px;
+            }
+        }
+    }
+}
+
+.active-sidebar {
+    z-index: 10;
+    opacity: 1 !important;
+    visibility: visible !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+#SidebarMobile{
+    background-color: #202020;
+    padding: 0px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 11;
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+
+    .top{
+        padding: 2rem 0;
+        i{
+            color: #fff;
+            font-size: 30px;
+            font-weight: bold;
+            position: absolute;
+            z-index: 13;
+            top: 32px;
+            right: 35px;
+            transition: 1s;
+
+        }
+    }
+    .bottom{
+        margin-top: 10px;
+        .tab{
+            color: #fff;
+            background-color: #202020;
+            width: 20%;
+            text-align: center;
+            padding: 5px 10px;
+        }
+    }
+    .content{
+      .others{
+        color: #fff;
+      }
+        i{
+            color: #fff;
+            background-color: #252525;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+        .home{
+            color: #ff6000 !important;
+        }
+    }
+}
+
+.header-main-phone{
+    background-color: #0465D2;
+    padding: 25px;
+     display:  block !important;
+
+    i{
+     font-size: 30px;
+     color: white;
+     cursor: pointer;
+    }
+ }
+#Slider{
+    a{
+        padding: 8px 58px !important;
+    }
+    .slick-arrow{
+        bottom:0 !important ;
+    }
+}
+#Super-deals{
+    .view-more{
+        display: none;
+    }
+}
+#Deals-Day, #Popular-viewed{
+    .slick-arrow{
+        display: none !important; 
+    }
+}
+.footer-subscribe{
+    .subscribe-right{
+        input{
+            padding: 17px 195px 17px 30px !important; 
+         
+        }
+    }
+}
+    .footer-menu{
+        .flexmenu{
+          flex-direction: column !important;
+        }
+    //  .subscribe-left{
+    //     flex-direction: column;
+    //  }
+    
+}
+
+#Top-Pics .modern-technology .modern-description p, #Top-Pics .modern-technology-bottom .modern-description p {
+    padding-right: 0!important;
+}
+.offer-btn{
+   a{
+    padding: 8px 11px !important;
+   }
+}
+}
+#Shop-content .modern-technology .modern-description p, #Shop-content .modern-technology-bottom .modern-description p{
+    padding-right: 0 !important;
+}
+#Lets-talk textarea{
+    width: 80% !important;
+}
+
+#Login-register form {
+   width:279.6px ;
+}

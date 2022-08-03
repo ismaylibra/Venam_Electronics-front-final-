@@ -1,0 +1,2125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="assets/photos/venam-tab-icon.png">
+    <link rel="stylesheet" href="assets/css/style.scss">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/_responsive.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Webcam HD 720p - Venam</title>
+</head>
+
+<body>
+    <header id="desktop">
+        <div class="header-top">
+            <div class="container  ">
+                <div class="d-flex justify-content-between flex-wrap align-items-center ">
+                    <div class="all-top-btns ">
+                        <div class="dropdown">
+                            <a class="btn btn-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>US/USD</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">AUS/USD</a></li>
+                                <li><a class="dropdown-item" href="#">BNG/TK</a></li>
+                                <li><a class="dropdown-item" href="#">IN/RP</a></li>
+                            </ul>
+                        </div> <span style="color: #c1c1c1;">|</span>
+                        <div class="dropdown">
+                            <a class="btn btn-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <span>Sell With Us</span>
+                            </a>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Returns</a></li>
+                                <li><a class="dropdown-item" href="#">Privacy</a></li>
+                                <li><a class="dropdown-item" href="#">Terms</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-social">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://www.viber.com/en/" target="_blank">
+                            <i class="fa-brands fa-viber"></i>
+                        </a>
+                        <a href="https://www.whatsapp.com/" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="header-middle mt-4">
+            <div class="container">
+                <div class="d-flex justify-content-between flex-wrap align-items-center">
+                    <div class="hd-middle-left">
+                        <a href="index.html">
+                            <img src="assets/photos/venam-nav-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="hd-middle-center">
+                        <div class="md-center-all d-inline-block">
+                            <input type="text" placeholder="Search for your item's type...">
+                            <span style="color: #c1c1c1;">|</span>
+                            <span class="all-category">All Category </span>
+                            <span class="category-arrow">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div class="hd-middle-right">
+                        <a href="account.html" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <a href="" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-arrows-rotate"></i><span>0</span>
+                        </a>
+                        <a href="" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-heart"></i><span>0</span>
+                        </a>
+                        <a href="basket.html" class="rounded-circle user-btn">
+                            <i class="fa-solid fa-basket-shopping"></i><span id="basketCount">0</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="menu-nav">
+                    <div class="buttom-dropdown position-relative">
+                        <button id="all-category" class="drpdwn-category">
+                            <i class="fa-solid fa-bars"></i>
+                            <span>All Categories</span>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </button>
+
+                        <ul class="category-menu" style="display: none;">
+                            <li class="has-dropdown">
+                                <a href="#">Accessories & Parts</a>
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Cables & Adapters</a>
+
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Batteries</a>
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Bags & Cases</a>
+                            </li>
+                            <li>
+                                <a href="#">Electronic Cigarettes</a>
+                            </li>
+                            <li>
+                                <a href="#">Audio & Video</a>
+                            </li>
+                            <li>
+                                <a href="#">Televisons</a>
+                            </li>
+                            <li>
+                                <a href="#">TV Receivers</a>
+                            </li>
+                            <li class="has-dropdown">
+                                <a href="#">Projectors</a>
+                                <div class="mega-menu">
+                                    <div class="menu-rows">
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="menu-row">
+                                            <a href="#" class="menu-title">Accessories & Parts</a>
+                                            <ul class="menu-items p-0">
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span class="text">Cables &amp; Adapters</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Batteries</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Chargers</span>
+                                                    </a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">
+                                                        <span>Bags &amp; Cases</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="banner-image"
+                                        style="background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/05/banner-15.jpg);">
+                                        <h3>smart phones</h3>
+                                        <h3>Get the new phone with 10% discount!</h3>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Audio Amplifier Boards</a>
+                            </li>
+                            <li>
+                                <a href="#">TV Sticks</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="nav-links">
+                        <li class="menu-item position-relative">
+                            <a href="#">
+                                Home
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Home 1 </a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 2</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 3</a>
+                                </li>
+                                <li>
+                                    <a href="#">Home 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">
+                                Categories
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <div class="mega-menu">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-7">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="mega-menu-item">
+                                                    <a href="#">Accessories & Parts</a>
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">Cables & Adapters</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Batteries</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Chargers</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Bags & Cases</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-5">
+                                        <div class="menu-banner" style="
+                                    background-image: url(https://ninetheme.com/themes/venam/v1/wp-content/uploads/2021/08/banner-30.jpg);
+                                "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="shop.html">
+                                Shop
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+
+                            <div class="mega-menu">
+                                <div class="row justify-content-between">
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-2">
+                                        <div class="mega-menu-item">
+                                            <a href="#">Accessories & Parts</a>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Cables & Adapters</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Batteries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chargers</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Bags & Cases</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">
+                                Pages
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">
+                                Special
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">
+                                Store list
+                                <i class="fas fa-angle-down"></i>
+                            </a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <header id="phone">
+        <div class="container">
+            <div class="d-flex justify-content-between flex-wrap align-items-center">
+                <div class="phone-hd-left">
+                    <a href="">
+                        <img src="assets/photos/white_logo-for-phone.png" alt="">
+                    </a>
+                </div>
+                <div class="phone-hd-right">
+                    <button><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header-main-phone d-none d-lg-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <a href="index.html">
+                        <img src="assets/photos/white_logo-for-phone.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 text-end">
+                    <i id="MenuIcon" class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section id="SidebarMobile">
+        <div class="container">
+         <div class="top d-flex justify-content-between align-items-center">
+             <img src="assets/photos/venam-nav-logo.png" alt="">
+             <i id="closeIcon" class="fa-solid fa-xmark close-icon"></i>
+         </div>
+         <div class="bottom d-flex" >
+             <div class="menu tab">MENU</div>
+             <div class="categoires tab">Categories</div>
+             <div class="user tab"><i class="fa-solid fa-user"></i></div>
+         </div>
+         <div class="content mt-4">
+             <div class="home d-flex justify-content-between
+align-items-center">
+                 <h6>Home</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>Category</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>Shop</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>Pages</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>SPECIAL</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>STORE LIST</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+             <div class="others d-flex justify-content-between
+align-items-center mt-3">
+                 <h6>CONTACT</h6>
+                 <i class="fa-solid fa-angle-down"></i>
+             </div>
+
+
+         </div>
+        </div>
+     </section>
+    <section id="Detail-hdr">
+        <div class="container text-center">
+            <h2>SHOP</h2>
+            <div class="detail-path">
+                <ul class="d-flex flex-wrap justify-content-evenly align-items-center">
+                    <li><a href="">Home</a></li>
+                    <li class="mx-4"><a href="">Products</a></li>
+                    <li><a href="">Webcam HD 720p</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section id="Detail-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="container">
+                        <div class="top-img">
+                            <img src="assets/photos/product3.jpg" alt="">
+                        </div>
+                        <div class="img-slider d-flex">
+                            <div class="slider-item">
+                                <img class="w-100" src="assets/photos/product3.jpg" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="assets/photos/product4.jpg" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="assets/photos/product3.jpg" alt="">
+                            </div>
+                            <div class="slider-item">
+                                <img class="w-100" src="assets/photos/product3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="content-all">
+                        <div class="content-stock">
+                            <div class="d-flex justify-content-between align-items-center">
+
+                                <span class="prod-pass"><i class="fa-solid fa-arrow-left"></i><i
+                                        class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </div>
+                        <h2>Webcam HD 720p</h2>
+                        <div class="rated">
+                            <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></span><span><i class="fa-regular fa-star"></i></span>
+                            <a href="">1 customer review</a>
+                        </div>
+                        <div class="content-price">
+                            <p>$19.00</p>
+                        </div>
+                        <div class="content-description">
+                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+                                Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+                                placerat eleifend leo.
+
+                            </p>
+                        </div>
+                        <div class="time-all">
+
+                            <div class="time-bottom d-flex justify-content-evenly text-center">
+                                <span>00<br>DAY</span><span>00
+                                    <br>HR</span><span>00 <br>MIN</span><span style="background-color: #F7BA01 ;
+                                    ">00 <br>SEC</span>
+                            </div>
+
+                        </div>
+                        <div class="stock-all">
+
+
+                            <ul class="d-flex justify-content-between align-items-center ">
+                                <li>Total Sold : 4</li>
+                                <li> Stocks : 116</li>
+
+                            </ul>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" role="progressbar" style="width: 5%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                              </div>
+                            </progress>
+
+                        </div>
+                        <div class="counter d-flex mt-5  ">
+                            <span class="me-3"><i class="fa-solid fa-minus"></i>0<i class="fa-solid fa-plus"></i></span>
+                            <button class="px-5">ADD TO CART</button>
+                        </div>
+                        <div class="compare-wish mt-3">
+                            <div class="d-flex align-items-center">
+                                <span class="me-3"><a href=""><i class="fa-solid fa-arrows-rotate"></i>
+                                        Compare</a></span>
+                                <span><a href=""><i class="fa-regular fa-heart"></i> Add to Wishlist</a></span>
+                            </div>
+                        </div>
+                        <div class="size-delivery-ask mt-4">
+                            <div class="d-flex">
+                                <span class="me-3"><a href=""><i class="fa-solid fa-ruler me-1"></i> Size
+                                        Guide</a></span>
+                                <span class="me-3"><a href=""><i class="fa-solid fa-wallet me-1"></i> Delivery &
+                                        Return</a></span>
+                                <span><a href=""><i class="fa-solid fa-circle-question me-1"></i> Ask a
+                                        Question</a></span>
+                            </div>
+                        </div>
+                        <div class="estimated mt-3">
+                            <p><span class="me-2"><i class="fa-solid fa-truck me-1"></i> Estimated Delivery: </span> Jul
+                                24 Jul 28</p>
+                        </div>
+                        <div class="content-users">
+                            <p><span><i class="fa-solid fa-face-smile me-1"></i>19 people</span> are viewing this right
+                                now</p>
+                        </div>
+                        <div class="sku-tags mt-4">
+                            <p><span>SKU:</span> 3KJ69SA-A</p>
+                            <p><span>Categories:</span><a href=""> Accessories</a>, <a href="">Camera</a>, <a
+                                    href="">Computer</a></p>
+                            <p><span>Tag:</span> <a href="">Simple</a></p>
+                            <p><span>Share:</span>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook me-2 fb"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-twitter me-2 tw"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-solid fa-envelope me-2 en"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-pinterest me-2 pt"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-linkedin me-2 le"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-odnoklassniki me-2 ok"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-whatsapp me-2 wp"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-telegram me-2 tg"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-viber me-2 vb"></i>
+                                </a>
+                                <a href="">
+                                    <i class="fa-brands fa-vk vk"></i>
+                                </a>
+
+
+                            </p>
+                            <p><span>Brands:</span> <a href="">TechnoX</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Tab-menus">
+        <div class="container">
+
+            <div class="tab-menu-top mb-5" id="myTab" role="tablist">
+                <button class="description active" id="decription-tab" data-bs-toggle="tab" data-bs-target="#decription-tab-pane"
+                    type="button" role="tab" aria-controls="decription-tab-pane" aria-selected="true">Description</button>
+                <button class="get-info ms-5" id="color-size-tab" data-bs-toggle="tab" data-bs-target="#color-size-tab-pane"
+                    type="button" role="tab" aria-controls="color-size-tab-pane" aria-selected="false">Additional
+                    information</button>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="decription-tab-pane" role="tabpanel" aria-labelledby="decription-tab"
+                    tabindex="0">
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Vivamus bibendum magna
+                        Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit.Contrary to popular belief, Lorem Ipsum is not
+                        simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it
+                        over
+                        2000 years old.
+                    </p>
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum
+                        fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="color-size-tab-pane" role="tabpanel" aria-labelledby="color-size-tab"
+                    tabindex="0">
+                    <div class="color-size ">
+                        <p><span class="me-5">Color</span>
+                            <a href="">Black</a>,
+                            <a href="">Blue</a>,
+                            <a href="">Pink</a>,
+                            <a href="">Yellow</a>
+                        </p>
+                        <p><span class="me-5">Size</span> L,M,S,XL,XS</p>
+                        <p><span class="me-5">Discount</span>
+                            <a href="">10%</a>,
+                            <a href="">12%</a>,
+                            <a href="">20%</a>,
+                            <a href="">30%</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Also-like">
+        <div class="container">
+            <div class="also-top">
+                <h4>Viewers Also Liked</h4>
+                <hr>
+            </div>
+            <div class="also-bottom">
+                <div class="row also-slider">
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2-5">
+                        <div class="also-prod-all">
+                            <div class="also-prod-img">
+                                <img class="w-100" src="assets/photos/bestproduct1.jpg" alt="">
+                                <div class="bottom-cart ">
+                                    <div class="cart-top-part">
+                                        <div class="d-flex justify-content-evenly align-items-center">
+                                            <a href="">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-heart"></i>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-solid fa-arrows-rotate"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="cart-bottom-part text-center">
+                                        <a href="">Add To Cart</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="rated">
+                                <span class="colored" style="color: #ff6000;"><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span><span><i
+                                        class="fa-regular fa-star"></i></span>
+
+                            </div>
+                            <div class="also-prod-name">
+                                <a href="">Audio Equipment</a>
+                            </div>
+                            <div class="content-price">
+                                <p><del class="me-1">$20.00</del> $19.00</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Product-reviews" class="mt-5">
+        <div class="container">
+            <div class="prod-reviews-top">
+                <h4>Product Reviews</h4>
+                <hr>
+            </div>
+            <div class="prod-reviews-bottom">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>
+                            Reviews
+                        </h5>
+                        <div class="comment mt-5">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="user-img">
+                                        <img class="rounded-circle" src="assets/photos/user-img.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-10">
+                                    <div class="username-rating d-flex justify-content-between align-items-center mb-1">
+                                        <p><span style="font-weight:bolder ;" class="me-2">John Doe</span>-- July 3,
+                                            2021 </p>
+                                        <div class="rated">
+                                            <span class="colored" style="color: #f7ba01;"><i
+                                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i><i
+                                                    class="fa-solid fa-star"></i></span><span><i
+                                                    class="fa-regular fa-star"></i></span>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="comment-content">
+                                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                                            praesentium voluptatum deleniti atque corrupti quos dolores et quas
+                                            molestias excepturi sint occaecati cupiditate non provident, similique sunt
+                                            in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
+                                            fuga. Et harum quidem rerum facilis est et expedita distinctio.
+
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="mb-4">Add a review</h5>
+                        <p style="color:#7d7d7d ;">Your email address will not be published. Required fields are marked
+                            <span style="color: #ff6000;">*</span>
+                        </p>
+                        <p style="color: #2b2b2b;font-size: 12px ; font-weight: bolder;">YOUR RATING <span
+                                style="color: #ff6000;">*</span></p>
+                        <div class="rated">
+                            <span class="colored" style="color: #f7ba01;"><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                    class="fa-solid fa-star"></i></span><span><i class="fa-regular fa-star"></i></span>
+
+                        </div>
+                        <select id="select" class="w-100 my-4">
+                            <option value="" class="w-100">Rate...</option>
+                            <option value="" class="w-100">Perfect</option>
+                            <option value="" class="w-100">Good</option>
+                            <option value="" class="w-100">Average</option>
+                            <option value="" class="w-100">Not that bad</option>
+                            <option value="" class="w-100">Poor</option>
+                        </select>
+
+                        <p>YOUR REVIEW <span style="color: #ff6000;">*</span></p>
+                        <textarea name="" id="" cols="100" rows="5" style="border-radius: 10px;"></textarea>
+                        <div class="row mb-4">
+                            <div class="col-lg-6">
+                                <p>Name <span style="color: #ff6000;">*</span></p>
+                                <input style="padding: 12px 20px; border-radius: 5px;" type="text" required>
+                            </div>
+                            <div class="col-lg-6">
+                                <p>Email <span style="color: #ff6000;">*</span></p>
+                                <input
+                                    style="padding: 12px 20px; border-radius: 5px; border-color: #7d7d7d; outline-color: #7d7d7d;"
+                                    type="email" required placeholder=>
+                            </div>
+                        </div>
+                        <input class="me-2" type="checkbox"> <span style="color: #7e7e7e;">Save my name, email, and
+                            website in this browser for the next time I comment.</span>
+                        <p class="mt-4 text-center" style="padding: 0 15px; background-color: #ff6000"> <input
+                                style="color: #fff; background-color: transparent; border: none;padding: 18px 49px;"
+                                type="submit"></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <footer>
+        <div class="exclusive-offer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="d-flex justify-content-evenly align-items-center">
+                            <div class="offer-text-left text-white">
+                                <div class="container">
+                                    <span>Exclusive Offer</span>
+                                    <h2>Smart Watch </h2>
+                                    <h2 class="bracelet">Bracelet</h2>
+                                </div>
+                            </div>
+                            <div class="offer-text-right">
+                                <img src="assets/photos/limited_offer_discount.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="offer-btns">
+                            <div class="container">
+                                <div class="offer-btn mb-3 ">
+                                    <a>LIMITED TIME OFFER</a>
+                                </div>
+                                <div class="offer-info text-white">
+                                    <div class="d-flex align-items-center">
+                                        <span class="upto">UPTO</span>
+                                        <span class="dollarPrice">$50.00</span>
+                                        <span class="off ">OFF</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-subscribe">
+                <div class="container">
+                    <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center ">
+                        <div class="subscribe-left">
+                            <h4>Subscribe Now !</h4>
+                            <span>Venam By Signing Up To Our Newsletter.</span>
+                        </div>
+                        <div class="subscribe-right">
+                            <input type="email" placeholder="Enter Your Email...">
+                            <button>SUBSCRIBE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-find">
+                <div class="container">
+                    <div class="find-top">
+                        <div class="container">
+                            <h4>Find Out More</h4>
+                        </div>
+                    </div>
+                    <div class="find-bottom">
+                        <div class="container">
+                            <span>Main Categories : </span><span class="categoryLinks"> <a href="">Accessories</a> <a
+                                    href="">Adapters</a> <a href="">Batteries</a> <a href="">Webcams</a><a
+                                    href="">Televisions</a><a href="">Projectors</a> <a href="">Bags & Cases</a><a
+                                    href="">Receivers</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu">
+
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="menu-description mt-4">
+                            <div class="container">
+                                <div class="menu-description-image">
+                                    <div class="container">
+                                        <img src="assets/photos/menu-description-image.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="menu-description-content mt-4">
+                                    <div class="container">
+                                        <p>Namkand sodales vel online best prices Amazon <br> Check out ethnic wear,
+                                            formal wear western wear <br> Blood Pressure Rate Monito lorem ipsum dolor
+                                            sit <br> amet lorem ipsum sonda mony daml...</p>
+                                    </div>
+                                </div>
+                                <div class="menu-description-social">
+                                    <div class="container">
+                                        <a href="">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-facebook"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </a>
+                                        <a href="">
+                                            <i class="fa-brands fa-pinterest"></i>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="customer-service">
+                            <div class="customer-service-top">
+                                <h5>Customer Service</h5>
+                            </div>
+                            <div class="customer-service-links">
+                                <ul>
+                                    <li><a href="">Help Center</a></li>
+                                    <li><a href="">Returns</a></li>
+                                    <li><a href="">Product Recalls</a></li>
+                                    <li><a href="">Accessiblity</a></li>
+                                    <li><a href="">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="quick-links">
+                            <div class="quick-links-top">
+                                <h5>Quick Links</h5>
+                            </div>
+                            <div class="quick-links-link">
+                                <ul>
+                                    <li><a href="">Return Policy</a></li>
+                                    <li><a href="">Term Of Use</a></li>
+                                    <li><a href="">Security</a></li>
+                                    <li><a href="">About us</a></li>
+                                    <li><a href="">Store Pickup</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="contact-us">
+                            <div class="contact-us-top">
+                                <h5>Contact Us</h5>
+                            </div>
+                            <div class="contact-us-content">
+                                <ul>
+                                    <li><i class="fa-solid fa-location-dot"></i> W898 RTower Stat, Suite 56</li>
+                                    <li><i class="fa-solid fa-headphones-simple"></i> 458-965-3224</li>
+                                    <li><i class="fa-solid fa-envelope-open"></i> Support@info.Com</li>
+                                    <li><i class="fa-solid fa-blender-phone"></i> 458-965-3224</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="footer-bottom-left">
+                        <div class="container">
+                            <p>Copyright © 2022 - Ismayil Ibra.</p>
+                        </div>
+                    </div>
+                    <div class="footer-bottom-right">
+                        <div class="container">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img src="assets/photos/card-logos.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="scroll-top">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/header.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
